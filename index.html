@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florería Elegante - Flores Frescas</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/+51979251240?text=Hola,%20quiero%20hacer%20un%20pedido%20en%20Florería%20y%20Detalles" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-icon"></i>
+    </a>
+
+    <header>
+        <div class="container header-content">
+            <div class="header-text">
+                <h1>Floreria "Carmelly"</h1>
+                <p>Donde cada flor cuenta una historia</p>
+            </div>
+            
+            <!-- Teléfono con icono -->
+            <div class="header-contact">
+                <i class="fas fa-phone-alt contact-icon"></i>
+                <div class="contact-info">
+                    <span class="contact-text">Llámanos</span>
+                    <span class="phone-number">+51 979-251-240</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- Navegación -->
+     <nav class="floral-nav">
+        <div class="nav-container">
+            <!-- Logo central -->
+            <div class="nav-branding">
+                <a href="#inicio" class="nav-logo">
+                    <img src="images/Logo/logo_flor.png" alt="Florería Carmelly">
+                    <span class="logo-text1">Floreria "Carmelly"</span>
+                    <span class="logo-text2">El recuerdo de mi madre</span>
+                </a>
+            </div>
+            <!-- Teléfono y hamburguesa -->
+            <div class="nav-actions">
+                <div class="nav-phone">
+                    <a href="tel:+51979251240">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+51 979-251-240</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Menú principal -->
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link"><i class="fas fa-home"></i><span>Inicio</span></a></li>
+                <li><a href="#nosotros" class="nav-link"><i class="fas fa-heart"></i><span>Nosotros</span></a></li>
+                <li><a href="#productos" class="nav-link"><i class="fas fa-shopping-basket"></i><span>Productos</span></a></li>
+                <li><a href="#galeria" class="nav-link"><i class="fas fa-images"></i><span>Galería</span></a></li>
+                <li><a href="#contacto" class="nav-link"><i class="fas fa-envelope"></i><span>Contacto</span></a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+    <!-- Carrusel de imágenes -->
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide" style="background-image: url('/images/Encabezado/promocionprincipal.png'); width: 100%; height: 100vh;">
+                <!-- <div class="slide-content">
+                    <h2>20% DE DESCUENTO EN TODA LA TIENDA</h2>
+                    <p>Oferta válida por tiempo limitado</p>
+                    <div class="slide-buttons">
+                        <a href="#arreglos" class="btn btn-slide">Ver colección</a>
+                        <a href="https://wa.me/5215512345678" class="btn btn-slide btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide" style="background-image: url('/images/Encabezado/encabezado2.jpg'); width: 100%; height: 100vh;">
+                <!-- <div class="slide-content">
+                    <h2>ENTREGAS EL MISMO DÍA</h2>
+                    <p>Para esos momentos especiales</p>
+                    <div class="slide-buttons">
+                        <a href="#arreglos" class="btn btn-slide">Ver arreglos</a>
+                        <a href="tel:+525512345678" class="btn btn-slide btn-call">
+                            <i class="fas fa-phone-alt"></i> Llamar ahora
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide" style="background-image: url('/images/Encabezado/encabezado3.jpg'); width: 100%; height: 100vh;">
+                <!-- <div class="slide-content">
+                    <h2>ARREGLOS PERSONALIZADOS</h2>
+                    <p>Creamos el diseño perfecto para ti</p>
+                    <div class="slide-buttons">
+                        <a href="#contacto" class="btn btn-slide">Contáctanos</a>
+                        <a href="#arreglos" class="btn btn-slide btn-gallery">
+                            <i class="fas fa-images"></i> Ver galería
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Indicadores del carrusel -->
+        <div class="swiper-pagination"></div>
+        <!-- Flechas de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="section bg-light">
+        <div class="container">
+            <h2>Nuestros Productos en oferta</h2>
+            <div class="products-grid">
+                <!-- Fila 1 -->
+                <div class="product-card">
+                    <img src="images/Promociones/girasoles_y_rosas.jpeg" alt="Ramos de flores">
+                    <h3>BOX CILINDRICO Girasoles y Rosas</h3>
+                    <p>Elegantes diseños para eventos especiales.</p>
+                    <p>- 4 girasoles.</p>
+                    <p>- 5 rosas.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 69.99</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/rosas_y_corona.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 89.60</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/ramos_girasol_y_rosas.jpeg" alt="Ramos de flores">
+                    <h3>Ramo de Girosol y rosa</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 3 Girasol.</p>
+                    <p>- 6 rosas.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 49.50</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/arreglo_rosas_rojas.jpeg" alt="Ramos de flores">
+                    <h3>Arreglo Modelo Melody - 18 rosas rojas</h3>
+                    <div class="price-container">
+                        <span class="product-price">S/ 150.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/caja_rosas_y_tulipanes.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 180.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                
+                
+                <!-- Fila 2 -->
+                <div class="product-card">
+                    <img src="images/Promociones/caja_rosas.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 50.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/caja_rosas_y_tulipanes.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 90.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/caja_rosas_y_tulipanes.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 90.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Promociones/caja_rosas_y_tulipanes.jpeg" alt="Ramos de flores">
+                    <h3>Caja de Rosa con corona</h3>
+                    <p>Rosas importadas y corona.</p>
+                    <p>- 12 rosas.</p>
+                    <p>- 1 corona.</p>
+                    <p>- 1 caja.</p>
+                    <div class="price-container">
+                        <span class="product-price">S/ 90.00</span>
+                        <span class="old-price">antes</span>
+                    </div>
+                </div>
+                
+                <!-- Fila 3 -->
+                <div class="product-card">
+                    <img src="images/product9.jpeg" alt="Ramitos sencillos">
+                    <h3>Ramitos Sencillos</h3>
+                    <p>Pequeños arreglos para detalles especiales.</p>
+                    <span class="product-price">Desde $150</span>
+                </div>
+                <div class="product-card">
+                    <img src="images/product10.jpeg" alt="Flores de temporada">
+                    <h3>Flores de Temporada</h3>
+                    <p>Arreglos con las flores de cada estación.</p>
+                    <span class="product-price">Desde $220</span>
+                </div>
+                <div class="product-card">
+                    <img src="images/product11.jpeg" alt="Coronas">
+                    <h3>Coronas Florales</h3>
+                    <p>Para puertas o ceremonias especiales.</p>
+                    <span class="product-price">Desde $500</span>
+                </div>
+                <div class="product-card">
+                    <img src="images/product12.jpeg" alt="Cajas de flores">
+                    <h3>Cajas de Flores</h3>
+                    <p>Modernos arreglos en cajas decorativas.</p>
+                    <span class="product-price">Desde $320</span>
+                </div>
+                
+                <!-- Fila 4 -->
+                <div class="product-card">
+                    <img src="images/product13.jpeg" alt="Arreglos infantiles">
+                    <h3>Arreglos Infantiles</h3>
+                    <p>Coloridos diseños para niños.</p>
+                    <span class="product-price">Desde $280</span>
+                </div>
+                <div class="product-card">
+                    <img src="images/product14.jpeg" alt="Plantas aromáticas">
+                    <h3>Plantas Aromáticas</h3>
+                    <p>Hierbas y flores con fragancias naturales.</p>
+                    <span class="product-price">Desde $230</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ocasiones" class="ocasiones">
+        <div class="container">
+            <h2>Para toda ocasión</h2>
+            <div class="grid-ocasiones">
+                <div class="ocasion">
+                    <i class="fas fa-heart"></i>
+                    <h3>Bodas</h3>
+                </div>
+                <div class="ocasion">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Cumpleaños</h3>
+                </div>
+                <div class="ocasion">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Aniversarios</h3>
+                </div>
+                <div class="ocasion">
+                    <i class="fas fa-cross"></i>
+                    <h3>Condolencias</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="social-section">
+        <div class="container">
+            <h2>Síguenos en Redes Sociales</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon pinterest">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#" class="social-icon tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section bg-light">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Cristobal Colón #210, Santa Rosa</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +51 979-251-240</p>
+                    <p><i class="fas fa-clock"></i> Horario: Lunes a Domingo 6:00 am - 12:00 am</p>
+                    
+                    <a href="https://wa.me/+51979251240?text=Hola,%20quiero%20hacer%20un%20pedido%20en%20Florería%20y%20Detalles" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagenes/logo-floreria.png" alt="Logo Florería Elegante" class="logo-footer">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2023 Florería Elegante. Todos los derechos reservados.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/Logo/logo2.png" alt="Florería y Detalles" class="footer-logo">
+                    <p>Creando momentos especiales desde 2008</p>
+                </div>
+                <div class="footer-section">
+                    <h3>La Empresa</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 8am - 8pm</p>
+                    <p>Sábado y Domingo: 9am - 6pm</p>
+                    <p>Urgencias: 24/7</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Florería y Detalles "El Recuerdo de mi Madre". Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Pie de página -->
+    <!-- <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Florería y Detalles</h3>
+                    <p>El Recuerdo de mi Madre</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Florería y Detalles. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
